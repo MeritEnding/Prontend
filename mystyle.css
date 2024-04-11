@@ -1,0 +1,106 @@
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+body {
+    background-color: burlywood;
+}
+
+header {
+    height: 60px;
+    margin: 10px;
+}
+
+nav {
+    margin: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 10px;
+    text-transform: uppercase;
+    letter-spacing:5px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: black;
+}
+nav ul li a:hover{
+    text-decoration:underline;
+}
+aside#left{
+    width:175px;
+    margin-top:20px;
+    float:left;
+}
+#left h4{
+    font-size:20px;
+}
+#left ul{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color:white;
+    list-style:none;
+    text-indent:15px;
+}
+#left ul li{
+    background:black;
+    line-height:30px;
+    border-bottom:1px solid blue;
+}
+#left ul li a{
+    text-decoration: none;
+    color:white;
+    display:block ;
+}
+#left ul li a:hover{
+    background:red;
+}
+#main{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:aliceblue;
+    overflow:hidden;
+    float:left;
+    width:430px; 
+}
+#shopcart{
+    margin-bottom:20px;
+}
+#login{
+    margin-top:40px;
+}
+aside#right{
+    padding:0px;
+    margin-left:10px;
+    width:200px;
+    float:left;
+}
+footer{
+    width:100%;
+    height:50px;
+    clear:both;
+    background-image: url(media/footer_bg.gif);
+    background-position: top left;
+    background-repeat: repeat-x;
+}
+img{
+    opacity:0.4;   
+}
+img:hover{
+    opacity: 1.0;
+}
+input[type=text]{color:red; }
+input[type=text]:focus,input[type=password]:focus{font-size:120%;}
+input[type=password]{color:red;}
+
+
