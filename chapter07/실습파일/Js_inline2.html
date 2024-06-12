@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<script>
+    function paragraph_over() {
+        paragraph.innerText = "안녕하세요 ^^ 반가워요.";
+        paragraph.style.color ="Red";
+    }
+    function paragraph_out() {
+        paragraph.innerText = "마우스를 여기에 위치해보세요.";
+        paragraph.style.color ="Black";
+    }
+</script>
+
+<body>
+    <p id=paragraph onmouseover=paragraph_over() onmouseout=paragraph_out()>
+        마우스를 여기에 위치해보세요.
+    </p>
+</body>
+
+</html>
